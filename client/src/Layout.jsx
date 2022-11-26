@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { logout } from "../../redux/reducers/userReducer/actions";
+import { logout } from "./redux/reducers/userReducer/actions";
 
 export default function Layout({ children }) {
   const navigate = useNavigate();
